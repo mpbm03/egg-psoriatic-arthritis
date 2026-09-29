@@ -23,8 +23,6 @@ ACC_CHANNELS    = ["CH6", "CH7", "CH8"]
 
 # ── Frequency ─────────────────────────────────────────────────────────────────
 
-FREQ_MAX_FFT = 0.2   # Hz  (~12 CPM)
-
 BANDS_CPM = {
     "gastric":     (1,  5),
     "intestinal":  (7, 12),
