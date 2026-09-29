@@ -162,4 +162,4 @@ Once you have results from `run_top_splits.py` and/or `loso_evaluation.py`, the 
 | `IMF_SELECTION_MODE` | IMF selection criterion (`"band_power_peaks"`) |
 | `MODELS_DICT` | ML models and their hyperparameter grids for `GridSearchCV` |
 
-`SEGMENTATION_MODE`, `LABEL_MODE`, and `IMF_SELECTION_MODE` are implemented as named modes rather than hardcoded logic, specifically so that future work can try a different segmentation, labelling, or IMF-selection strategy without restructuring the pipeline — just add a new branch for the new mode and point the constant at it. Their current status.
+`SEGMENTATION_MODE`, `LABEL_MODE`, and `IMF_SELECTION_MODE` are implemented as named modes rather than hardcoded logic, specifically so that future work can try a different segmentation, labelling, or IMF-selection strategy without restructuring the pipeline - just add a new branch for the new mode and point the constant at it. Their current status.
